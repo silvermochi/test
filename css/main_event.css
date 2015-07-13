@@ -1,0 +1,104 @@
+﻿body{top center;
+	margin: 0;
+	background-color: #e5e5e5;
+	/*font-size: 24px;*/
+	font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial;
+}
+/*header區*/
+#header{ background:#131313; width:100%; height:45px; margin:0 auto;}
+#header .header-logo{ width:120px; height:24px; background:url(../images/infocus_logo.png) no-repeat; margin-top:10px; margin-left:30px; display:inline-block;}
+#header .header-event-logo{width:80px; height:24px; background:url(../images/infocus_event_logo.png) no-repeat; margin-top:10px; margin-left:10px; display:inline-block;}
+#header .header-member{position: absolute; padding: 12px 13px; right: 1em;  display: inline-block; font-size:13px;}
+#header .header-member a{color:#F5F5F5;text-decoration: none;background:url(../images/icon_user.png) no-repeat 0px 3px; padding-left:15px;}
+#header .header-member a:hover{color:#00a0e9;background:url(../images/icon_user_over.png) no-repeat 0px 3px;}
+
+
+
+/*內容區*/
+.wrapper{width:100%;height: auto; margin:0 auto;}
+.main{ width:980px; height:auto; margin:auto;}
+
+/*內頁內容區*/
+.page-banner {width:980px; height:auto; margin:auto; padding-top:20px;}
+.page-banner-wrapper{ width:980px; height:420px; margin:auto; background:url(../images/banner_01.jpg) no-repeat center center;}
+.page-banner h1{font-size: 24px;color:#242424;margin: 36px auto 36px auto;font-weight: normal;}
+.page-main{ width:980px; height:auto; margin:0 auto; background-color:#FFF; padding-bottom:40px;}
+.page-main .session{  padding: 28px 0;  border-bottom: solid 1px #dddddd; width:90%; margin:auto;}
+.page-main .session h2{font-size: 24px;color:#242424;font-weight: bold;}
+.page-main .session-h2-block{ display:inline-block; width:200px;}
+.page-main .session i{ border-right: solid 6px #242424; margin-right:10px; height:22px;}
+.page-main .session p{font-size: 20px;color:#242424;font-weight: normal;letter-spacing:normal; margin-top:16px;}
+.page-main .session img{ display:inline-block; margin-top:10px; margin-bottom:10px;}
+.page-main .session ol,ul{padding-left: 40px;}
+.page-main .session ol li,ul li{font-size: 20px;color:#242424;font-weight: normal;letter-spacing:normal; list-style-type:decimal; list-style-position: outside;margin-top:10px;}
+.page-main .session ul li{list-style-type:disc;}
+.page-main .session .date{font-size: 24px;}
+/*winner*/
+.page-main .session .winner-title{ height:74px; line-height:74px; background:url(../images/winner_title_bg.png) no-repeat left bottom; width:100%; padding-left:60px;padding-top:30px;}
+.page-main .session .table{font-size: 20px;color:#242424;font-weight: normal;}
+.page-main .session .table th{ color:#888888; border-top: none;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding-top:20px; padding-bottom:20px;line-height: 1.42857143; vertical-align: top;border-bottom: 1px solid #dddddd;text-align: center;}
+.page-main .winner-session-bottom{border-bottom: none;padding:0;}
+/*registration*/
+.page-main .caption{width: 90%;margin: auto; padding-top:30px;}
+.page-main .caption span{height: 60px;line-height: 60px; background-color: #fffbc7;font-size: 24px;color: #fe3535;font-style: italic; display:block;}
+.page-main .caption i{font-style: italic; padding-left:20px; padding-right:5px;}
+.form-box{border:1px #7e7e7e solid;padding:4px 6px 6px 6px;height:24px;line-height:24px; }
+.form-box-w-short{ width:230px;}
+.form-box-w-length{width:550px;}
+.form-box:focus {border:1px #09d solid;}
+.form-font{font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; font-size:20px ;color:#242424;}
+.page-main .registration-session-bottom{padding:15px 0;}
+.input-control {display:inline-block;}
+.input-control .important{ font-size:18px; color:#fe3535;font-style: italic; display:inline-block; padding-left:10px;}
+.input-select {display:inline-block; width:100px;}
+.input-select-mobile { width:245px;}
+.input-select select{width: 100%; padding: 2px 6px 6px 6px ; height:36px ;line-height:36px;font-size: 20px; line-height: 1; border:1px #7e7e7e solid; border-radius: 0; display: block; overflow:hidden; /*Chrome*/-webkit-appearance: none; /*FF*/-moz-appearance: none; /*CSS3*/appearance: none; background: url(../images/new_arrow.png) no-repeat right center transparent; font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; ;color:#242424;}
+.input-select select::-ms-expand {display: none; /*清除ie的默认选择框样式清除，隐藏下拉箭头*/}
+.input-select select{ *background:url(../images/new_arrow.png) no-repeat -10px -10px;}/*假清除ie7的箭頭圖檔*/
+_::-moz-tree-row(hover),.input-select select{ background:none;}/*清除FF的箭頭圖檔*/
+.input-select option {  font-weight: normal;  display: block;  padding: 0px 2px 1px;  white-space: pre;  min-height: 1.2em;}
+
+
+.btn-bar{ width:100%; margin-top:30px; margin-bottom:30px;}
+.btn-bar .btn-box{ width:120px; height:48px; line-height:48px;  margin:auto;}
+.btn-bar .btn-box a{width:100%; font-size:20px; color:#FFF; background:#131313; text-align:center;  display:inline-block;}
+.btn-bar .btn-box a:hover{ background-color:#00a0e9; text-decoration: none;}
+
+
+
+
+/*內頁選單*/
+.page-menu-box{ width:100%; height:70px; background:#131313; font-size:20px;}
+.page-menu{ width:980px; margin:auto;}
+.page-menu-box ul{ float:left; padding-left: 0;}
+.page-menu-box li { float:left; display:inline-block; width:160px; text-align:center; line-height:70px;margin-top:0;}
+.page-menu-box li a { color:#e5e5e5; text-decoration: none;}
+.page-menu-box li a:hover { color:#00a0e9;}
+.page-menu-box .on {color:#00a0e9; width:168px; height:78px;display:inline-block; margin-top:-8px; padding-top:8px; background:url(../images/menu_bg.png) no-repeat top right; /*ie7*background:url(../images/menu_bg.png) no-repeat top right;*/}
+.page-menu-box .disable{color:#656565;}
+.page-menu-box .social-bar{float:right; margin-right:20px; margin-top:25px; width:auto;}
+.page-menu-box .social-bar span{ text-indent:-999em; overflow:hidden; display:inline-block;}
+.page-menu-box .social-bar .icon-fb{ width:20px; height:20px; background:url(../images/icon_social.png); display:inline-block;}
+.page-menu-box .social-bar .icon-fb:hover{background:url(../images/icon_social.png) 20px 0;}
+.page-menu-box .social-bar .icon-googleplus{ width:20px; height:20px; background:url(../images/icon_social.png) 0 20px;display:inline-block; margin-left:8px;}
+.page-menu-box .social-bar .icon-googleplus:hover{background:url(../images/icon_social.png) 20px 20px;}
+
+
+/*footer區*/
+#footer{ background:#252525; width:100%; height:55px; margin:40px auto 0 auto;}
+#footer .footer-logo{ width:95px; height:20px; background: url(../images/ft_infocus_logo.png) no-repeat; margin-top:17px; margin-left:30px; display:inline-block;}
+#footer .copyright{position: absolute; padding-top:18px;  right: 1em;  display: inline-block; font-size:13px; color:#818181;}
+#footer .copyright i{border-right: 1px solid #343434;  padding-right: 14px;  margin-right: 12px;}
+#footer .copyright a{color:#bdbdbd; text-decoration: none;}
+#footer .copyright a:hover{color:#00a0e9;text-decoration: none;}
+
+/*小物件*/
+.space-right-5{ padding-right:5px;}
+.space-right-10{ padding-right:10px;}
+.space-left-5{ padding-left:5px;}
+.space-left-10{ padding-left:10px;}
+
+.clear{ clear:both;}
+.clearfix:after{clear:both;}
+.clearfix{ *zoom: 1; /*For IE 6&7 only*/}
