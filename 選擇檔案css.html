@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<style> 
+.upload-file-bar { position: relative; }
+.upload-file {position: absolute; left: 0; top: 0; width:290px; height:32px ; display:block; opacity: 0; filter: alpha(opacity:0);background-color:#F00; }
+.upload-file-btn {line-height: 29px;vertical-align: middle;	display: inline-block;	border-top-width: 1px;border-right-width: 1px;border-bottom-width: 1px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-top-color: #7e7e7e;border-right-color: #7e7e7e;border-bottom-color: #7e7e7e;	background: #FFF;border-left-style: none;	margin-left:-5px;}
+body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Firefox 3.5+ 才看的懂得選取器*/
+.upload-file-text {	line-height: 24px;	padding: 2px;vertical-align: middle;display: inline-block;border-top-width: 1px;border-bottom-width: 1px;border-top-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #7e7e7e;border-bottom-color: #7e7e7e;border-left-width: 1px;border-left-color: #7e7e7e;border-right-style: none;}
+
+/*既有的css*/
+.form-box-w-short{ width:230px;}
+.form-font{font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; font-size:20px ;color:#242424;}
+.form-box{border:1px #7e7e7e solid;padding:4px 6px 6px 6px;height:24px;line-height:24px; }
+</style>
+</head>
+
+<body huaban_collector_injected="true" cz-shortcut-listen="true">
+<div class="upload-file-bar">
+    <input type="text" class="upload-file-text form-box-w-short form-font" id="file_text">
+    <input type="button" class="upload-file-btn form-font" value="瀏覽">
+    <input type="file" class="upload-file" onchange="document.getElementById('file_text').value=this.value">
+</div>
+</body>
+</html>
