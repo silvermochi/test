@@ -56,7 +56,7 @@
 .input-select select{width: 100%; padding: 2px 6px 6px 6px ; height:36px ;line-height:36px;font-size: 20px; line-height: 1; border:1px #7e7e7e solid; border-radius: 0; display: block; overflow:hidden; /*Chrome*/-webkit-appearance: none; /*FF*/-moz-appearance: none; /*CSS3*/appearance: none; background: url(../images/new_arrow.png) no-repeat right center transparent; font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; ;color:#242424;}
 .input-select select::-ms-expand {display: none; /*清除ie的默认选择框样式清除，隐藏下拉箭头*/}
 .input-select select{ *background:url(../images/new_arrow.png) no-repeat -10px -10px;}/*假清除ie7的箭頭圖檔*/
-_::-moz-tree-row(hover),.input-select select{ background:none;}/*清除FF的箭頭圖檔*/
+/*_::-moz-tree-row(hover),.input-select select{ background:none;}清除FF的箭頭圖檔-7/15更新版FF好像不需要隱藏了*/
 .input-select option {  font-weight: normal;  display: block;  padding: 0px 2px 1px;  white-space: pre;  min-height: 1.2em;}
 /*上傳檔案bar*/
 .upload-file-bar { position: relative; }
