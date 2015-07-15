@@ -103,7 +103,7 @@ background: url(../images/arrowdown.png) no-repeat right;-webkit-background-size
 .page-menu-box .on {color:#fff; width:100%; height:auto;display:inline-block; margin-top:-8px; padding-top:8px; background:#252525; position: absolute; top: 0;}
 .page-menu-box .disable{color:#656565;}
 .page-menu-box .social-bar{margin-top:8px;}
-.page-menu-box .social-bar span{ text-indent:-999em; overflow:hidden; display:inline-block;}
+.page-menu-box .social-bar span{ text-indent:-999px; overflow:hidden; display:inline-block;white-space: nowrap;}
 .page-menu-box .social-bar .icon-fb{ width:20px; height:20px; background:url(../images/icon_social.png); display:inline-block;}
 .page-menu-box .social-bar .icon-fb:hover{background:url(../images/icon_social.png) 20px 0;}
 .page-menu-box .social-bar .icon-googleplus{ width:20px; height:20px; background:url(../images/icon_social.png) 0 20px;display:inline-block; margin-left:8px;}
