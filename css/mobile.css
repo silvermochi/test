@@ -45,7 +45,7 @@
 .form-box{border:1px #7e7e7e solid;padding:4px 6px 6px 6px;height:24px;line-height:24px; margin-top: 10px;}
 .form-box-w-short{width: 95%;}
 .form-box-w-length{width: 95%;}
-.form-box:focus {border:1px #09d solid;}
+.form-box:focus {border:1px #09d solid; border-radius: 0;}
 .form-font{font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; font-size:20px ;color:#242424;}
 .page-main .registration-session-bottom{padding:15px 0;}
 .input-control {display:block;}
