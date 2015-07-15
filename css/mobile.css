@@ -26,7 +26,7 @@
 .page-main .session h2{font-size: 18px;}
 .page-main .session-h2-block{ display:block; width:100%;}
 .page-main .session i{ border-right: solid 6px #242424; margin-right:10px; height:22px;}
-.page-main .session p{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; margin-top:16px;}
+.page-main .session p{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; margin-top:0px;}
 .page-main .session img{ display:block; margin-top:10px; margin-bottom:10px;width:100%; height:auto;  -webkit-background-size:contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
 .page-main .session ol,ul{padding-left: 40px;}
 .page-main .session ol li,ul li{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; list-style-type:decimal; list-style-position: outside;margin-top:10px;}
@@ -40,7 +40,7 @@
 .page-main .winner-session-bottom{border-bottom: none;padding:0;}
 /*registration*/
 .page-main .caption{width: 90%;margin: auto; padding-top:30px;}
-.page-main .caption span{height: 60px;line-height: 60px; background-color: #fffbc7;font-size: 24px;color: #fe3535;font-style: italic; display:block;}
+.page-main .caption span{height: 60px;line-height: 60px; background-color: #fffbc7;font-size: 20px;color: #fe3535;font-style: italic; display:block;}
 .page-main .caption i{font-style: italic; padding-left:20px; padding-right:5px;}
 .form-box{border:1px #7e7e7e solid;padding:4px 6px 6px 6px;height:24px;line-height:24px; margin-top: 10px;}
 .form-box-w-short{width: 95%;}
@@ -67,8 +67,16 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 
 .btn-bar{ width:100%; margin-top:30px; margin-bottom:30px;}
 .btn-bar .btn-box{ width:120px; height:48px; line-height:48px;  margin:auto;}
-.btn-bar .btn-box a{width:100%; font-size:20px; color:#FFF; background:#131313; text-align:center;  display:inline-block;}
-.btn-bar .btn-box a:hover{ background-color:#00a0e9; text-decoration: none;}
+.btn-bar{ width:100%; margin-top:30px; margin-bottom:30px;}
+.btn-bar .btn-box{ width:120px; height: auto; line-height:48px;  margin:auto;}
+.btn-bar .btn-box input{width:100%; height:48px; font-size:20px; color:#FFF;text-align:center; background:#131313; border:none;font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial;}
+.btn-bar .btn-box input:hover{ background-color:#00a0e9; text-decoration: none;}
+.btn-bar a{width:100%;height:48px;line-height:48px; font-size:20px; color:#FFF; background:#131313; text-align:center;  display: block; margin-right:0px; margin-top:20px;}
+.btn-bar a:hover{ background-color:#00a0e9; text-decoration: none;}
+.btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:10px; margin-bottom:-4px;}
+.btn-bar .icon-user{background: url(../images/icon_user@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.btn-bar .icon-registration{background: url(../images/icon_registration@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+
 
 
 

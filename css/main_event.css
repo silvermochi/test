@@ -71,9 +71,11 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 .btn-bar .btn-box{ width:120px; height: auto; line-height:48px;  margin:auto;}
 .btn-bar .btn-box input{width:100%; height:48px; font-size:20px; color:#FFF;text-align:center; background:#131313; border:none;font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial;}
 .btn-bar .btn-box input:hover{ background-color:#00a0e9; text-decoration: none;}
-/*.btn-bar .btn-box a{width:100%; font-size:20px; color:#FFF; background:#131313; text-align:center;  display:inline-block;}
-.btn-bar .btn-box a:hover{ background-color:#00a0e9; text-decoration: none;} 改成input submit*/
-
+.btn-bar a{width:150px;height:48px;line-height:48px; font-size:20px; color:#FFF; background:#131313; text-align:center;  display: inline-block; margin-right:30px;}
+.btn-bar a:hover{ background-color:#00a0e9; text-decoration: none;}
+.btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:10px; margin-bottom:-4px;}
+.btn-bar .icon-user{background: url(../images/icon_user@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.btn-bar .icon-registration{background: url(../images/icon_registration@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
 
 
 
@@ -108,6 +110,7 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 .space-right-10{ padding-right:10px;}
 .space-left-5{ padding-left:5px;}
 .space-left-10{ padding-left:10px;}
+.space-left-30{ margin-left:30px;}
 
 .clear{ clear:both;}
 .clearfix:after{clear:both;}
