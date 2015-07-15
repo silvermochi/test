@@ -34,7 +34,7 @@
 .page-main .session ul li{list-style-type:disc;}
 .page-main .session .date{font-size: 24px;}
 /*winner*/
-.page-main .session .winner-title{ height:74px; line-height:74px; background:url(../images/winner_title_bg.png) no-repeat left bottom; width:100%; padding-left:60px;padding-top:30px;}
+.page-main .session .winner-title{ height:74px; line-height:74px; background:url(../images/winner_title_bg.png) no-repeat left bottom;padding-left:60px;padding-top:30px;}
 .page-main .session .table{font-size: 20px;color:#242424;font-weight: normal;}
 .page-main .session .table th{ color:#888888; border-top: none;}
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding-top:20px; padding-bottom:20px;line-height: 1.42857143; vertical-align: top;border-bottom: 1px solid #dddddd;text-align: center;}
