@@ -8,11 +8,12 @@
 <meta name="description" content="InFocus活動" />
 <meta name="author" content="InFocus活動">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-<!--<link href="css/bootstrap.css" rel="stylesheet">-->
-<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+
+<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"><!--日曆功能-->
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="css/reset.css" rel="stylesheet" media="screen">
 <link href="css/main_event.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" media="only screen and (min-width : 320px) and (max-width : 1000px)" type="text/css" href="css/mobile.css" />
 
 
 </head>
@@ -31,6 +32,8 @@
     </div>	
     <div class="page-menu-box">
     	<div class="page-menu">
+        	<input type='checkbox' name='thing' value='valuable' id="thing"/>
+            <label for="thing"></label>
         	<ul class="clearfix">
                 <li><a href="page_description.html" >活動說明</a></li>
                 <li class="on">活動註冊</li>
@@ -111,7 +114,17 @@
             	<input name="dealer" type="text" class="form-box form-font form-box-w-short" id="dealer" />     		
             </div>
         </div>
-        <div class="btn-bar"><div class="btn-box"><a href="#" target="_blank">確定</a></div></div>
+        <div class="session registration-session-bottom">
+        	<h2 class="session-h2-block"><i></i>上傳檔案</h2>
+            <div class="input-control">
+            	<div class="upload-file-bar">
+                    <input type="text" class="upload-file-text form-box-w-short form-font" id="file_text">
+                    <input type="button" class="upload-file-btn form-font" >
+                    <input type="file" class="upload-file" onchange="document.getElementById('file_text').value=this.value">
+                </div>   		
+            </div>
+        </div>
+        <div class="btn-bar"><div class="btn-box"><input type="submit" value="確定"/></div></div>
         
     </div>
 </div>
@@ -121,7 +134,7 @@
     <span class="copyright">
         <a href="#" target="_blank">使用條款</a><i></i>
         <a href="#" target="_blank">隱私權保護政策</a><i></i>
-        © 2015 InFocus, Inc. All rights reserved.
+        <span>© 2015 InFocus, Inc. All rights reserved.</span>
     </span>
 </div>
 

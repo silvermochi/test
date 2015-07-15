@@ -20,7 +20,7 @@
 
 /*內頁內容區*/
 .page-banner {width:980px; height:auto; margin:auto; padding-top:20px;}
-.page-banner-wrapper{ width:980px; height:420px; margin:auto; background:url(../images/banner_01.jpg) no-repeat center center;}
+.page-banner-wrapper{ width:980px; height:420px; margin:auto; background:url(../images/banner_01.jpg) no-repeat center top;}
 .page-banner h1{font-size: 24px;color:#242424;margin: 36px auto 36px auto;font-weight: normal;}
 .page-main{ width:980px; height:auto; margin:0 auto; background-color:#FFF; padding-bottom:40px;}
 .page-main .session{  padding: 28px 0;  border-bottom: solid 1px #dddddd; width:90%; margin:auto;}
@@ -58,12 +58,21 @@
 .input-select select{ *background:url(../images/new_arrow.png) no-repeat -10px -10px;}/*假清除ie7的箭頭圖檔*/
 _::-moz-tree-row(hover),.input-select select{ background:none;}/*清除FF的箭頭圖檔*/
 .input-select option {  font-weight: normal;  display: block;  padding: 0px 2px 1px;  white-space: pre;  min-height: 1.2em;}
+/*上傳檔案bar*/
+.upload-file-bar { position: relative; }
+.upload-file {position: absolute; left: 0; top: 0; width:244px; height:36px ; display:block; opacity: 0; filter: alpha(opacity:0);}
+.upload-file-btn { height:30px;line-height: 30px;vertical-align: middle;	display: inline-block;margin-left:-30px; background:url(../images/icon_attach_file.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain; width:30px;border: none;}
+body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Firefox 3.5+ 才看的懂得選取器*/
+.upload-file-text {width:238px; height:30px;	line-height: 30px;	padding: 2px;vertical-align: middle;display: inline-block; border:1px #7e7e7e solid;}
+
 
 
 .btn-bar{ width:100%; margin-top:30px; margin-bottom:30px;}
-.btn-bar .btn-box{ width:120px; height:48px; line-height:48px;  margin:auto;}
-.btn-bar .btn-box a{width:100%; font-size:20px; color:#FFF; background:#131313; text-align:center;  display:inline-block;}
-.btn-bar .btn-box a:hover{ background-color:#00a0e9; text-decoration: none;}
+.btn-bar .btn-box{ width:120px; height: auto; line-height:48px;  margin:auto;}
+.btn-bar .btn-box input{width:100%; height:48px; font-size:20px; color:#FFF;text-align:center; background:#131313; border:none;font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial;}
+.btn-bar .btn-box input:hover{ background-color:#00a0e9; text-decoration: none;}
+/*.btn-bar .btn-box a{width:100%; font-size:20px; color:#FFF; background:#131313; text-align:center;  display:inline-block;}
+.btn-bar .btn-box a:hover{ background-color:#00a0e9; text-decoration: none;} 改成input submit*/
 
 
 
@@ -72,7 +81,8 @@ _::-moz-tree-row(hover),.input-select select{ background:none;}/*清除FF的箭�
 .page-menu-box{ width:100%; height:70px; background:#131313; font-size:20px;}
 .page-menu{ width:980px; margin:auto;}
 .page-menu-box ul{ float:left; padding-left: 0;}
-.page-menu-box li { float:left; display:inline-block; width:160px; text-align:center; line-height:70px;margin-top:0;}
+.page-menu-box input[type=checkbox]{ display: none;}
+.page-menu-box li { /*float:left;*/ display:inline-block; width:160px; text-align:center; line-height:70px;margin-top:0;}
 .page-menu-box li a { color:#e5e5e5; text-decoration: none;}
 .page-menu-box li a:hover { color:#00a0e9;}
 .page-menu-box .on {color:#00a0e9; width:168px; height:78px;display:inline-block; margin-top:-8px; padding-top:8px; background:url(../images/menu_bg.png) no-repeat top right; /*ie7*background:url(../images/menu_bg.png) no-repeat top right;*/}

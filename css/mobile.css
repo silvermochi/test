@@ -1,0 +1,121 @@
+﻿body{top center;
+	margin: 0;
+	background-color: #e5e5e5;
+	/*font-size: 24px;*/
+	font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial;
+}
+/*header區*/
+#header .header-logo{margin-left:10px;}
+#header .header-event-logo{margin-left:2px;}
+#header .header-member{right:2px;}
+
+
+
+
+/*內容區*/
+.wrapper{width:100%;height: auto; margin:0 auto;}
+.main{ width:100%; height:auto; margin:auto;}
+
+/*內頁內容區*/
+.page-banner {width:100%; padding-top:0px;}
+.page-banner-wrapper{ width:100%; height:auto;  -webkit-background-size:contain !important;-moz-background-size: contain !important;-o-background-size: contain !important;background-size: contain !important;}
+.page-banner-wrapper:before{display: block;content: "";padding-top: 43%}
+.page-banner h1{font-size: 18px;margin: 15px;}
+.page-main{ width:95%; margin-top: 40px;  padding-bottom: 10px;}
+.page-main .session{  padding: 28px 0;  border-bottom: solid 1px #dddddd; width:90%; margin:auto;}
+.page-main .session h2{font-size: 18px;}
+.page-main .session-h2-block{ display:block; width:100%;}
+.page-main .session i{ border-right: solid 6px #242424; margin-right:10px; height:22px;}
+.page-main .session p{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; margin-top:16px;}
+.page-main .session img{ display:block; margin-top:10px; margin-bottom:10px;width:100%; height:auto;  -webkit-background-size:contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.page-main .session ol,ul{padding-left: 40px;}
+.page-main .session ol li,ul li{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; list-style-type:decimal; list-style-position: outside;margin-top:10px;}
+.page-main .session ul li{list-style-type:disc;}
+.page-main .session .date{font-size: 20px;}
+/*winner*/
+.page-main .session .winner-title{ padding-left:0px;padding-top:0px;/*text-indent: 3em;*/ background: url(../images/winner_title_bg.png) no-repeat -45px bottom;}
+.page-main .session .table{font-size: 13px;}
+.page-main .session .table th{ color:#888888; border-top: none;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding-top:20px; padding-bottom:20px;line-height: 1.42857143; vertical-align: top;border-bottom: 1px solid #dddddd;text-align: center;}
+.page-main .winner-session-bottom{border-bottom: none;padding:0;}
+/*registration*/
+.page-main .caption{width: 90%;margin: auto; padding-top:30px;}
+.page-main .caption span{height: 60px;line-height: 60px; background-color: #fffbc7;font-size: 24px;color: #fe3535;font-style: italic; display:block;}
+.page-main .caption i{font-style: italic; padding-left:20px; padding-right:5px;}
+.form-box{border:1px #7e7e7e solid;padding:4px 6px 6px 6px;height:24px;line-height:24px; margin-top: 10px;}
+.form-box-w-short{width: 95%;}
+.form-box-w-length{width: 95%;}
+.form-box:focus {border:1px #09d solid;}
+.form-font{font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; font-size:20px ;color:#242424;}
+.page-main .registration-session-bottom{padding:15px 0;}
+.input-control {display:block;}
+.input-control .important{ font-size:18px; color:#fe3535;font-style: italic; display:inline-block; padding-left:10px;}
+.input-select {display:block; width:100%;}
+.input-select-mobile { width: 100%;}
+.input-select select{width: 100%; padding: 2px 6px 6px 6px ; height:36px ;line-height:36px;font-size: 20px; line-height: 1; border:1px #7e7e7e solid; border-radius: 0; display: block; overflow:hidden; /*Chrome*/-webkit-appearance: none; /*FF*/-moz-appearance: none; /*CSS3*/appearance: none; background: url(../images/new_arrow.png) no-repeat right center transparent; font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial; ;color:#242424;margin-top: 10px;}
+.input-select select::-ms-expand {display: none; /*清除ie的默认选择框样式清除，隐藏下拉箭头*/}
+.input-select select{ *background:url(../images/new_arrow.png) no-repeat -10px -10px;}/*假清除ie7的箭頭圖檔*/
+_::-moz-tree-row(hover),.input-select select{ background:none;}/*清除FF的箭頭圖檔*/
+.input-select option {  font-weight: normal;  display: block;  padding: 0px 2px 1px;  white-space: pre;  min-height: 1.2em;}
+/*上傳檔案bar*/
+.upload-file-bar { position: relative;margin-top: 10px; border: 1px #7e7e7e solid; width: 100%; }
+.upload-file {position: absolute; left: 0; top: 0; width:100%; height:36px ; display:block; opacity: 0; filter: alpha(opacity:0);}
+.upload-file-btn { height:30px;line-height: 30px;vertical-align: middle;display:inline-block;margin-left:90%; margin-top: -32px; background:url(../images/icon_attach_file.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain; width:30px;border: none;}
+body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Firefox 3.5+ 才看的懂得選取器*/
+.upload-file-text {width:270px; height:30px;line-height: 30px;	padding: 2px;vertical-align: middle;display: inline-block; border: none;}
+
+
+.btn-bar{ width:100%; margin-top:30px; margin-bottom:30px;}
+.btn-bar .btn-box{ width:120px; height:48px; line-height:48px;  margin:auto;}
+.btn-bar .btn-box a{width:100%; font-size:20px; color:#FFF; background:#131313; text-align:center;  display:inline-block;}
+.btn-bar .btn-box a:hover{ background-color:#00a0e9; text-decoration: none;}
+
+
+
+
+/*內頁選單*/
+.page-menu-box{ width:100%; height:auto;}
+.page-menu{ width:100%; margin:auto;}
+.page-menu-box label{  display: block;width: 1em;;height: 70px;position: absolute;z-index: 1;
+background: url(../images/arrowdown.png) no-repeat right;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;right: 10px;
+}
+.page-menu-box input[type=checkbox]:checked + label
+{
+ background: url(../images/close.png) no-repeat right;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;
+}
+.page-menu-box ul{ float:none; padding-left: 0; padding-top: 70px; overflow: hidden; height: 0; position: relative;
+}
+.page-menu-box input[type=checkbox]:checked ~ ul{
+    height: auto;
+}
+.page-menu-box li {float:none;display:block; width:100%; text-align:center; line-height:70px;margin-top:0;}
+.page-menu-box li a { color:#e5e5e5; text-decoration: none;}
+.page-menu-box li a:hover { color:#00a0e9;}
+.page-menu-box .on {color:#fff; width:100%; height:auto;display:inline-block; margin-top:-8px; padding-top:8px; background:#252525; position: absolute; top: 0;}
+.page-menu-box .disable{color:#656565;}
+.page-menu-box .social-bar{margin-top:8px;}
+.page-menu-box .social-bar span{ text-indent:-999em; overflow:hidden; display:inline-block;}
+.page-menu-box .social-bar .icon-fb{ width:20px; height:20px; background:url(../images/icon_social.png); display:inline-block;}
+.page-menu-box .social-bar .icon-fb:hover{background:url(../images/icon_social.png) 20px 0;}
+.page-menu-box .social-bar .icon-googleplus{ width:20px; height:20px; background:url(../images/icon_social.png) 0 20px;display:inline-block; margin-left:8px;}
+.page-menu-box .social-bar .icon-googleplus:hover{background:url(../images/icon_social.png) 20px 20px;}
+
+
+/*footer區*/
+#footer{ background:#252525; width:100%; height:auto; margin:20px auto 0 auto; padding: 20px 0}
+#footer .footer-logo{ width:95px; height:20px; background: url(../images/ft_infocus_logo.png) no-repeat; margin: 0 auto; display:block;}
+#footer .copyright{position: relative; padding-top:10px;  right: 0;  display: block; font-size:13px; color:#818181; text-align: center;}
+#footer .copyright i{border-right: 1px solid #343434;  padding-right: 14px;  margin-right: 12px;}
+#footer .copyright a{color:#bdbdbd; text-decoration: none;}
+#footer .copyright a:hover{color:#00a0e9;text-decoration: none;}
+#footer .copyright span{ display: block; text-align: center;}
+
+/*小物件*/
+.space-right-5{ padding-right:5px;}
+.space-right-10{ padding-right:10px;}
+.space-left-5{ padding-left:5px;}
+.space-left-10{ padding-left:10px;}
+
+.clear{ clear:both;}
+.clearfix:after{clear:both;}
+.clearfix{ *zoom: 1; /*For IE 6&7 only*/}
