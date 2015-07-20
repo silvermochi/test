@@ -9,14 +9,44 @@
 #header .header-event-logo{margin-left:2px;}
 #header .header-member{right:2px;}
 
-
-
+/*首頁KV*/
+.kv-box{ background:url(../images/kv_bg.gif) repeat;overflow: hidden;zoom: 1; position: relative;}
+#index_b_hero { width: 100%; height: auto; margin: auto; position: relative; padding-top:42.857% }
+#index_b_hero img { width: 100%; height: auto; }
+#index_b_hero .hero-wrap { overflow: visible; position: absolute;width: 100%; padding-top:42.857%; top:0; }
+#index_b_hero .heros { width: 100%; height: auto; padding-top:42.857%; position:absolute; top:0; }
+#index_b_hero .hero-wrap .heros li{ margin-top: 0px;}
+#index_b_hero .next, #index_b_hero .prev { filter: alpha(Opacity=70); opacity: .7; position: absolute; top: 45%; margin-top: -25px; margin-left: -35px; background-color: #000; z-index: 4; }
+#index_b_hero .next:hover, #index_b_hero .prev:hover { background-color: #09f; }
+#index_b_hero .next { margin: -25px 5px 0 0; right: -40px; }
+#index_b_hero .disabled { background-color: #eee; }
+#index_b_hero .mask-left, #index_b_hero .mask-right, #index_b_hero .hero { /*background: #fff;*/ z-index: 1; position: absolute; top: 0; left: 0; width: 100%; height: auto; overflow: hidden; left: 1960px; }
+#index_b_hero .hero a { display:block; }
+#index_b_hero .mask-right, #index_b_hero .mask-left { z-index: 3; left: -980px; filter: alpha(Opacity=50); opacity: .5; background:url(../images/kv_bg.gif) repeat; /*background: #fff;*/ overflow: hidden; }
+#index_b_hero .mask-right { left: 980px; }
+.icon-arrow-a-left, .icon-arrow-a-right { background: url(../images/icon-sd26986d847.png) no-repeat; }
+.icon-arrow-a-left { background-position: 20px 10px; height: 70px; width: 70px; border-radius:35px;}
+.icon-arrow-a-left:hover, .icon-arrow-a-left.arrow-a-left_hover, .icon-arrow-a-left.arrow-a-left-hover { background-position: 20px 10px; }
+.icon-arrow-a-right { background-position: -50px 10px; height: 70px; width: 70px; border-radius:35px;}
+.icon-arrow-a-right:hover, .icon-arrow-a-right.arrow-a-right_hover, .icon-arrow-a-right.arrow-a-right-hover { background-position: -50px 10px; }
 
 /*內容區*/
 .wrapper{width:100%;height: auto; margin:0 auto;}
 .main{ width:100%; height:auto; margin:auto;}
 
-/*內頁內容區*/
+/*內容區-首頁*/
+.index-main{ width:95%; height:auto; margin:auto;}
+.index-main .index-bn-box{ width:100%;height:auto; margin:auto; margin-top:20px;}
+.index-main .index-bn{ width:100%; height:auto; background-color:#FFF;vertical-align: middle; margin:10px 0px 10px 0; padding-bottom:10px;}
+.index-main .index-bn img{display:block;width:100%; height:auto; /*-webkit-background-size:contain !important;-moz-background-size: contain !important;-o-background-size: contain !important;background-size: contain !important;*/}
+.index-main .index-bn:hover img{filter: alpha(Opacity=70); opacity: .7;}
+.index-main .index-bn h4{font-size: 20px;color:#242424;font-weight: normal;margin:10px;}
+.index-main .index-bn:hover h4{filter: alpha(Opacity=70); opacity: .7;}
+.index-main .index-bn .event-date{font-size: 18px;color:#242424;font-weight: normal; margin:0 10px;letter-spacing:normal; background: url(../images/icon_clock.png) no-repeat left center; padding-left:22px;}
+.index-main .index-bn:hover .event-date{filter: alpha(Opacity=70); opacity: .7;}
+
+
+/*內容區-內頁*/
 .page-banner {width:100%; padding-top:0px;}
 .page-banner-wrapper{ width:100%; height:auto;  -webkit-background-size:contain !important;-moz-background-size: contain !important;-o-background-size: contain !important;background-size: contain !important;}
 .page-banner-wrapper:before{display: block;content: "";padding-top: 43%}
@@ -28,8 +58,8 @@
 .page-main .session i{ border-right: solid 6px #242424; margin-right:10px; height:22px;}
 .page-main .session p{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; margin-top:0px;}
 .page-main .session img{ display:block; margin-top:10px; margin-bottom:10px;width:100%; height:auto;  -webkit-background-size:contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
-.page-main .session ol,ul{padding-left: 40px;}
-.page-main .session ol li,ul li{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; list-style-type:decimal; list-style-position: outside;margin-top:10px;}
+.page-main .session ol,.session ul{padding-left: 40px;}
+.page-main .session ol li,.session ul li{font-size: 16px;color:#242424;font-weight: normal;letter-spacing:normal; list-style-type:decimal; list-style-position: outside;margin-top:10px;}
 .page-main .session ul li{list-style-type:disc;}
 .page-main .session .date{font-size: 20px;}
 /*winner*/
@@ -72,7 +102,7 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 .btn-bar .btn-box{ width:120px; height: auto; line-height:48px;  margin:auto;}
 .btn-bar .btn-box input{width:100%; height:48px; font-size:20px; color:#FFF;text-align:center; background:#131313; border:none;font-family: "Microsoft JhengHei","Microsoft YaHei", Verdana, Arial;-webkit-appearance: none;border-radius: 0;}
 .btn-bar .btn-box input:hover{ background-color:#00a0e9; text-decoration: none;}
-.btn-bar a{width:100%;height:48px;line-height:48px; font-size:20px; color:#FFF; background:#131313; text-align:center;  display: block; margin-right:0px; margin-top:20px;}
+.btn-bar a{height:48px;line-height:48px; font-size:20px; color:#FFF; background:#131313; text-align:center;  display: inline-block; margin-right:30px; padding-left:20px; padding-right:20px;}
 .btn-bar a:hover{ background-color:#00a0e9; text-decoration: none;}
 .btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:10px; margin-bottom:-4px;}
 .btn-bar .icon-user{background: url(../images/icon_user@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
@@ -110,8 +140,19 @@ background: url(../images/arrowdown.png) no-repeat right;-webkit-background-size
 .page-menu-box .social-bar .icon-googleplus:hover{background:url(../images/icon_social.png) 20px 20px;}
 
 
+/*404*/
+.not-found {padding-top:30px;padding-bottom:60px;width:100%; background-color:#FFF; color:#72777b;}
+.not-found .ui {width:90%;margin-left:auto;margin-right:auto;text-align: center;}
+.not-found .ui img{margin-left: auto;  margin-right: auto; position: relative;vertical-align: middle; width:100%;background-color: rgba(0,0,0,.05);display: block;}
+.not-found h4 {line-height:24px; font-size: 24px;margin: 1em 0 1em;}
+.not-found .not-found a, .not-found p {line-height: 28px; font-size: 20px; letter-spacing:normal; margin-bottom:20px;}
+.not-found a{width:150px;height:48px;line-height:48px; font-size:20px; color:#242424; text-align:center;  display: inline-block; margin-right:30px;}
+.not-found a:hover{ color:#00a0e9; text-decoration: none;}
+.nff{ margin-bottom:0x;}
+
+
 /*footer區*/
-#footer{ background:#252525; width:100%; height:auto; margin:20px auto 0 auto; padding: 20px 0}
+#footer{ background:#252525; width:100%; height:auto; margin:20px auto 0 auto; padding: 20px 0; position:relative;}
 #footer .footer-logo{ width:95px; height:20px; background: url(../images/ft_infocus_logo.png) no-repeat; margin: 0 auto; display:block;}
 #footer .copyright{position: relative; padding-top:10px;  right: 0;  display: block; font-size:13px; color:#818181; text-align: center;}
 #footer .copyright i{border-right: 1px solid #343434;  padding-right: 14px;  margin-right: 12px;}
