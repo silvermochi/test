@@ -42,7 +42,7 @@
 .index-main .index-bn:hover img{filter: alpha(Opacity=70); opacity: .7;}
 .index-main .index-bn h4{font-size: 20px;color:#242424;font-weight: normal;margin:10px;}
 .index-main .index-bn:hover h4{filter: alpha(Opacity=70); opacity: .7;}
-.index-main .index-bn .event-date{font-size: 18px;color:#242424;font-weight: normal; margin:0 10px;letter-spacing:normal; background: url(../images/icon_clock@2X.png) no-repeat left center; padding-left:22px;}
+.index-main .index-bn .event-date{ width:100px;font-size: 18px;color:#242424;font-weight: normal; margin:0 10px;letter-spacing:normal; background: url(../images/icon_clock@2X.png) no-repeat left center;*-webkit-background-size:contain !important;-moz-background-size: contain !important;-o-background-size: contain !important;background-size: contain !important; padding-left:22px;}
 .index-main .index-bn:hover .event-date{filter: alpha(Opacity=70); opacity: .7;}
 
 
