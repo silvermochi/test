@@ -71,7 +71,18 @@
 <script src="js/slide/jquery-1.9.1.min.js" type="text/javascript"></script> 
 <script src="js/slide/jquery.foucs.js" type="text/javascript"></script> 
 <script type="text/javascript">
-	$.foucs({ direction: 'left' });
+	$(function(){
+		if($(".heros li").length > 1)//如果數量大於1
+		{
+			$.foucs({ direction: 'left' });//就讓他左右滑動
+		}
+		else//否則
+		{
+			$(".helper").hide();//就讓他隱藏左右按鈕
+			
+			}
+		});
+	
 </script>
 </body>
 </html>

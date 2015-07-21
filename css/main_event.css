@@ -18,7 +18,7 @@
 #index_b_hero img { width: 980px; height: 420px; }
 #index_b_hero .hero-wrap { overflow: visible; position: absolute; }
 #index_b_hero .heros { width: 980px; height: 420px; }
-#index_b_hero .hero-wrap .heros li{ margin-top: 0px;}
+#index_b_hero .hero-wrap .heros li{ margin-top: 0px;left:0;}
 #index_b_hero .next, #index_b_hero .prev { filter: alpha(Opacity=70); opacity: .7; position: absolute; top: 50%; margin-top: -25px; margin-left: -25px; background-color: #000; z-index: 4; }
 #index_b_hero .next:hover, #index_b_hero .prev:hover { background-color: #09f; }
 #index_b_hero .next { margin: -25px 5px 0 0; right: -30px; }
