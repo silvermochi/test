@@ -51,7 +51,7 @@
       <div class="session registration-session-bottom">
         	<h2 class="session-h2-block"><i></i>購買日期</h2>
             <div class="input-select">
-            	<input type="datetime" id="datepicker" class="form-box form-font form-box-w-short">
+            	<input type="datetime" id="datepicker" class="form-box form-font form-box-w-short"><span class="important">! 必填</span>
             </div>
         </div>
     	<div class="session registration-session-bottom">
@@ -81,13 +81,14 @@
         </div>
         <div class="session registration-session-bottom">
         	<h2 class="session-h2-block"><i></i>購買機型</h2>
-          <div class="input-select input-select-mobile form-box-w-short">
-                	<select >
+          <div class="input-select">
+                	<select class="input-select-mobile form-box-w-short">
                 	  <option>請選擇型號</option>
                 	  <option>M810</option>
                 	  <option>M210</option>
                 	  <option>M320</option>
                     </select>
+                    <span class="important">! 必填</span>
             </div>
         </div>
         <div class="session registration-session-bottom">
@@ -121,7 +122,8 @@
                     <input type="text" class="upload-file-text form-box-w-short form-font" id="file_text">
                     <input type="button" class="upload-file-btn form-font" >
                     <input type="file" class="upload-file" onchange="document.getElementById('file_text').value=this.value">
-                </div>   		
+                </div>
+                <span class="important">! 必填</span>   		
             </div>
         </div>
         <div class="btn-bar"><div class="btn-box"><input type="submit" value="確定"/></div></div>

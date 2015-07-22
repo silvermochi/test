@@ -44,6 +44,9 @@
 .index-main .index-bn:hover h4{filter: alpha(Opacity=70); opacity: .7;}
 .index-main .index-bn .event-date{font-size: 18px;color:#242424;font-weight: normal; margin:0 10px;letter-spacing:normal; background: url(../images/icon_clock.png) no-repeat left center; padding-left:22px;}
 .index-main .index-bn:hover .event-date{filter: alpha(Opacity=70); opacity: .7;}
+.index-main .more-bar{ width:100%; margin:0 auto;}
+.index-main a.btn-more{ height:36px; margin:auto; font-size:18px;text-align:center;line-height:36px; display:block; color:#09f;background-color:#f4f4f4; }
+.index-main a.btn-more:hover{ background-color:#fff;filter: alpha(Opacity=70); opacity: .7;}
 
 
 /*內容區-內頁*/
@@ -69,8 +72,8 @@
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding-top:20px; padding-bottom:20px;line-height: 1.42857143; vertical-align: top;border-bottom: 1px solid #dddddd;text-align: center;}
 .page-main .winner-session-bottom{border-bottom: none;padding:0;}
 /*registration*/
-.page-main .caption{width: 90%;margin: auto; padding-top:30px;}
-.page-main .caption span{height: 60px;line-height: 60px; background-color: #fffbc7;font-size: 20px;color: #fe3535;font-style: italic; display:block;}
+.page-main .caption{width:90%;margin: auto; padding-top:30px;}
+.page-main .caption span{background-color: #fffbc7;font-size: 24px;color: #fe3535;font-style: italic; display:block; padding:10px 4px;}
 .page-main .caption i{font-style: italic; padding-left:20px; padding-right:5px;}
 .form-box{border:1px #7e7e7e solid;padding:4px 6px 6px 6px;height:24px;line-height:24px; margin-top: 10px;}
 .form-box-w-short{width: 95%;}
@@ -104,11 +107,8 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 .btn-bar .btn-box input:hover{ background-color:#00a0e9; text-decoration: none;}
 .btn-bar a{height:48px;line-height:48px; font-size:20px; color:#FFF; background:#131313; text-align:center;  display: inline-block; margin-right:30px; padding-left:20px; padding-right:20px;}
 .btn-bar a:hover{ background-color:#00a0e9; text-decoration: none;}
-.btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:10px; margin-bottom:-4px;}
+.btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:5px; margin-bottom:-4px;}
 .btn-bar .icon-user{background: url(../images/icon_user@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
-.btn-bar .icon-registration{background: url(../images/icon_registration@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
-
-
 
 
 
