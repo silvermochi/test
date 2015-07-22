@@ -109,7 +109,9 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 .btn-bar a:hover{ background-color:#00a0e9; text-decoration: none;}
 .btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:5px; margin-bottom:-4px;}
 .btn-bar .icon-user{background: url(../images/icon_user@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
-
+.btn-bar .icon-registration{background: url(../images/icon_registration@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.btn-bar .icon-back{background: url(../images/arrow_back.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.btn-bar .icon-search{background: url(../images/icon_search_plus.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
 
 
 /*內頁選單*/

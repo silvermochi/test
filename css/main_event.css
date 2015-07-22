@@ -45,7 +45,7 @@
 .index-main .index-bn img{width:300px; height:128px; display:block;}
 .index-main .index-bn h4{font-size: 20px;color:#242424;font-weight: normal;margin:10px;}
 .index-main .index-bn .event-date{font-size: 18px;color:#242424;font-weight: normal; margin:0 10px;letter-spacing:normal; background: url(../images/icon_clock.png) no-repeat left center; padding-left:22px;}
-.index-main .more-bar{ width:980px; margin:0 auto;}
+.index-main .more-bar{ width:980px; margin:auto;}
 .index-main a.btn-more{ height:36px; margin:auto; font-size:18px;text-align:center;line-height:36px; display:block; color:#09f;background-color:#f4f4f4; }
 .index-main a.btn-more:hover{ background-color:#fff;filter: alpha(Opacity=70); opacity: .7;}
 
@@ -111,8 +111,8 @@ body:not(:-moz-handler-blocked) .upload-file-btn {line-height: 26px;}/*只有 Fi
 .btn-bar .icon{ width:24px; height:24px;display:inline-block; margin-right:5px; margin-bottom:-4px;}
 .btn-bar .icon-user{background: url(../images/icon_user@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
 .btn-bar .icon-registration{background: url(../images/icon_registration@2X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
-.btn-bar .icon-back{background: url(../images/arrow_back.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
-.btn-bar .icon-search{background: url(../images/icon_search_plus.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.btn-bar .icon-back{background: url(../images/arrow_back@1X.png) no-repeat center center;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;}
+.btn-bar .icon-search{background: url(../images/icon_search_plus@1X.png) no-repeat center center;}
 
 
 
